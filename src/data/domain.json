@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Business Analyst",
+        "skill": ["git & github", "Python","MS excel & office",
+        "Problem solving & critical thinking", "client relations", "KPI (key performance index)",
+        "Analytical skills like Business, finance, Policy, operations Analysis"
+        ,"Business Process Outsourcing"]
+    },
+    {
+        "id": 2,
+        "name": "Data Analyst",
+        "skill": ["git & github", "Python", "Sql & MySql", "MongoDB", "Statistics"
+        , "MS excel & office", "Data visualization", "Data cleansing","Pandas" , 
+        "Machine learning & its models", "Django", "R, C, C++ (Languages)", "Tableau"]
+
+    },
+    {
+        "id": 3,
+        "name": "Data Scientist",
+        "skill": ["git & github", "Python", "Sql & MySql", "MongoDB", "Statistics","Machine Learning", "MS excel & office", "Data visualization", "Data cleansing"]
+
+    },
+    {
+        "id": 4,
+        "name": "Machine Learning Engineer",
+        "skill": ["git & github", "Python","MS excel & office",
+        "Problem solving & critical thinking", "Machine learning", "microservices", 
+        "Flask, Amazon S3, AWS lambda", "Docker", "Django"]
+
+    },
+    {
+        "id": 5,
+        "name": "Cloud Data Scientist",
+        "skill": ["git & github", "Python", "AWS & AWS lambda", "Azure & its API management",
+        "Java"
+        , "MS excel & office","Docker", "REST (representational state transfer)", "Google cloud"]
+
+    },
+    {
+        "id": 6,
+        "name": "Solution Architect",
+        "skill": ["git & github", "Python","MS excel & office",
+        "Problem solving & critical thinking", "communication", "Analytical skills", "Project management", "Architecture systems evalution" , "collaboration", "AWS", "system and data security", "resource management", "hardware and software analysis"]
+
+    }
+]
