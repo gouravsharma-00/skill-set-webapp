@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Business Analyst",
+        "skill": ["SQL", "Python", "R", "Tableau", "Power BI", "Excel", "Machine Learning", "Data Visualization", "Data Analysis", "Data"]
+    },
+    {
+        "id": 2,
+        "name": "Data Analyst",
+        "skill": ["SQL", "Python", "R", "Tableau", "Power BI", "Excel", "Machine Learning", "Data Visualization", "Data Analysis", "Data"]
+
+    },
+    {
+        "id": 3,
+        "name": "Data Scientist",
+        "skill": ["SQL", "Python", "R", "Tableau", "Power BI", "Excel", "Machine Learning", "Data Visualization", "Data Analysis", "Data"]
+
+    },
+    {
+        "id": 4,
+        "name": "Machine Learning Engineer",
+        "skill": ["SQL", "Python", "R", "Tableau", "Power BI", "Excel", "Machine Learning", "Data Visualization", "Data Analysis", "Data"]
+
+    },
+    {
+        "id": 5,
+        "name": "Cloud Data Scientist",
+        "skill": ["SQL", "Python", "R", "Tableau", "Power BI", "Excel", "Machine Learning", "Data Visualization", "Data Analysis", "Data"]
+
+    },
+    {
+        "id": 6,
+        "name": "Solution Architect",
+        "skill": ["SQL", "Python", "R", "Tableau", "Power BI", "Excel", "Machine Learning", "Data Visualization", "Data Analysis", "Data"]
+
+    }
+]
