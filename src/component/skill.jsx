@@ -9,6 +9,15 @@ export default function Skill({ domain, bool }) {
                     )
                 })
             }
+            <div>
+                <ol>
+                    <li>W3school</li>
+                    <li>Official documentation </li>
+                    <li>YouTube code with hary, web dev simplified, bro code and etc.</li>
+                    <li>Class notes by Devendra sir.</li>
+                    <li>Online resources and website like Odin Project and github, stakeOverflow</li>
+                </ol>
+            </div>
         </div>
     )
 }
