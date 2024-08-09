@@ -11,6 +11,7 @@ export default function App() {
     setSelected(e.target.value);
   }
   const handleSubmit = () => {
+    document.getElementById('text').style.display = 'none';
     data.map((item) => {
       if (item.name === selected) {
         setselectedData(item);
@@ -20,7 +21,7 @@ export default function App() {
   return (
     <div className='flex' id='main'>
       <div>
-      <select onChange={handleInput}>
+      <select onChange={handleInput} className='select'>
         {
           data.map((item) => (
             <option key={item.id} value={item.name} >
@@ -29,14 +30,15 @@ export default function App() {
           ))
         }
       </select>
-      <button onClick={handleSubmit}>Submit</button>
+      <button onClick={handleSubmit} id='submit'>Submit</button>
       </div>
       <div>
         <Skill domain={selectedData} bool={bool}/>
       </div>
       <div>
-        <textarea id="text" value="Select your domain from drop down and see the skill requirment of it. Note: these requirments may be subject to change">
-        </textarea>
+        <div id='text' className='flex'>
+          <p>Select your domain from drop down and see the skill requirment of it. Note: these requirments may be subject to change</p>
+        </div>
       </div>
     </div>
   )
